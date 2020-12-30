@@ -1,0 +1,150 @@
+body {
+  background-color: #C9CBFF;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.imgprog{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.imgdis{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  background-color: #C9CBFF;
+  border-color: gray;
+  border-style: dotted;
+  height: 0;
+  width: 5%;
+  border-width: thick;
+  border-bottom: none;
+}
+
+.top {
+  background-color: #949CDF;
+  position: relative;
+  padding-top: 75px;
+}
+
+.mont {
+  position: relative;
+  top: 5px;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-size: 562.5%; /* 16px = 100% = 1em */
+  font-family: 'Sacramento', cursive;
+  color: #6155a6;
+}
+
+.prog{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    color: #583d72;
+    font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #583d72;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+  color: #583d72;
+  font-weight: bold;
+}
+
+.sam{
+  font-weight: lighter;
+  color: #C9CBFF;
+}
+
+a{
+  color: #C9CBFF;
+}
+
+.mid {}
+
+.bottom-container{
+  background-color: #6155a6;
+  padding: 25px;
+}
+
+.imgsam {
+  margin-top: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.btmclo {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topclo {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.BUTTON_ACX {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 5px;
+   line-height: 5px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   width: 140px;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 20px;
+   background-color: #5000A1;
+   -webkit-box-shadow: 1px 1px 20px 0 #FFFFFF;
+   -moz-box-shadow: 1px 1px 20px 0 #FFFFFF;
+   box-shadow: 1px 1px 20px 0 #FFFFFF;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 25px;
+   margin-top: 5px;
+}
+
+.BUTTON_ACX:hover {
+   background: #6200C7;
+   border: solid #9837DE 0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
